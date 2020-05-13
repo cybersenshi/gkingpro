@@ -33,6 +33,8 @@ hero_button:
 show_news: true
 show_staff: false
 menu:
+  footer:
+    weight: 1
   navigation:
     identifier: _index
     weight: 1
