@@ -10,16 +10,18 @@
 			<ul class="right">
 				{% for link in site.menus.navigation %}
 					<li>
-						<a href="{{ child.url | absolute_url }}">
-							{{ child.title }}
+						<a href="{{ link.url | absolute_url }}">
+							{{ link.title }}
 						</a>
 					</li>
 				{% endfor %}
 			</ul>
 		</div><!-- /nav-wrapper -->
 	</nav>
-    <h1 class="logo">
-      <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
+    <h1>
+      <a href="{{ "/" | absolute_url }}">
+				<img src="" alt="{{ site.name }}">
+			</a>
     </h1>
      <nav class="main-nav">
         <ul class="navigation">
