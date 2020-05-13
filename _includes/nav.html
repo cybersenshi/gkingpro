@@ -5,10 +5,50 @@
 {% assign url = page.url | remove:'index.html' %}
 
 <header class="site-header">
-  <div class="container">
-      <h1 class="logo">
-        <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
-      </h1>
+	<nav>
+		<div class="nav-wrapper deep-purple lighten-2">
+			<ul class="right">
+				<li>
+					<a href="">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="">
+						About
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Packages
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Services
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Events
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Testimonials
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div><!-- /nav-wrapper -->
+	</nav>
+    <h1 class="logo">
+      <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
+    </h1>
       <nav class="main-nav">
         <ul class="navigation">
           {% for link in site.menus.navigation %}
@@ -46,5 +86,4 @@
           {% endfor %}
         </ul>
     </nav>
-  </div>
 </header>
