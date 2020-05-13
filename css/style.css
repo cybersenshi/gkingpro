@@ -1,0 +1,43 @@
+a {
+  color: white; }
+
+h1 {
+  display: block;
+  position: absolute;
+  top: -0.5em;
+  left: 2rem; }
+
+address {
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: larger;
+  line-height: 20px; }
+
+address a {
+  color: black; }
+
+main img {
+  width: 100%;
+  max-height: 50vh;
+  margin-top: 13vh; }
+
+.nav-wrapper {
+  text-transform: uppercase;
+  font-size: larger; }
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.share {
+  display: flex;
+  flex-direction: row; }
+
+.share li {
+  padding: 0.5em; }
+
+/*# sourceMappingURL=style.css.map */
