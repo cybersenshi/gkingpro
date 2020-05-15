@@ -8,13 +8,41 @@
 	<nav>
 		<div class="nav-wrapper deep-purple lighten-2">
 			<ul class="right">
-				{% for link in site.menus.navigation %}
-					<li>
-						<a href="{{ link.url | absolute_url }}">
-							{{ link.name }}
-						</a>
-					</li>
-				{% endfor %}
+				<li>
+					<a href="/">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="{{ url('about') }}">
+						About
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Packages
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Services
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Events
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Testimonials
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Contact
+					</a>
+				</li>
 			</ul>
 		</div><!-- /nav-wrapper -->
 	</nav>
