@@ -4,15 +4,7 @@ banner_image: "/uploads/2020/05/13/cover.jpg"
 layout: landing-page
 heading: GKing Productions
 partners: []
-services:
-- description: Performing collaborative research and providing services to support
-    the Health Sector.
-  heading: Health
-  icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing services to support
-    the biotechnology sector.
-  heading: BioTech
-  icon: "/uploads/2017/11/13/biotech.png"
+services: []
 sub_heading: We Make the Show Happen
 textline: "G. King Productions is a staging management and special event company that
   believes in the realization of your ideas to create you a unique, personal, and
