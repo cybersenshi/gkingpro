@@ -28,6 +28,11 @@ main img {
   max-height: 50vh;
   margin-top: 13vh; }
 
+.optn li {
+  color: black;
+  background-color: whitesmoke;
+  border: 1px solid grey; }
+
 .nav-wrapper {
   text-transform: uppercase;
   font-size: larger; }
