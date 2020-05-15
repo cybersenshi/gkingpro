@@ -31,6 +31,7 @@ main img {
 ul.optn li {
   color: black;
   background-color: whitesmoke;
+  margin: 1rem;
   border: 1px solid grey; }
 
 .nav-wrapper {
