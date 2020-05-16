@@ -8,7 +8,14 @@ h1 {
   display: block;
   position: absolute;
   top: -0.5em;
-  left: 2rem; }
+  left: 2rem;
+  font-size: 3rem; }
+
+h1 a {
+  color: black; }
+
+h3 {
+  font-size: 2rem; }
 
 address {
   position: absolute;
