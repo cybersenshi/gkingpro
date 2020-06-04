@@ -48,6 +48,8 @@ fields:
     label: Service
   hidden: false
   default: ''
+  config:
+    labelField: service
 - name: second_image
   type: file
   config:
