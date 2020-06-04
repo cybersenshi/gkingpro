@@ -34,8 +34,19 @@ show_news: false
 show_staff: false
 second_image: "/uploads/2020/06/04/dinner.jpg"
 testimonials:
-  testimonal: ''
-  who_said_it: ''
+- testimonial: "The Southern Frederick County Rotary wants to thank Gary King of King
+    Productions. His amazing DJing at our Hollywood Premier and Annual Charter Dinner
+    was well received by all for the second year in a row! He created a fun filled
+    environment allowing our Stars to walk the red carpet in style. Gary also provide
+    us with lazar lighting, and a sound system for the Red Carpet Interviews. Many
+    thanks for your professionalism and the time you dedicated to make it a fun filled
+    event. \nSee you at our next event!"
+  who_said_it: The S.F.C.R. Event Coordinators
+- testimonal: ''
+  who_said_it: Commissioner Ursula Higgins, 5B Correspondence Secretary
+  testimonial: I had the pleasure of meeting Gary King of King Productions who saved
+    the day. Mr. King jumped right in and said YES! Mr. King made the community and
+    family day a success. We could not have pulled it off without you. Truly a blessing.
 events:
 - event: Parties/Other Events
 - event: Concerts/Festivals
