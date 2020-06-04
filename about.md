@@ -4,7 +4,7 @@ date: '2017-11-01T03:00:00.000+00:00'
 banner_image: "/uploads/2020/05/13/cover.jpg"
 heading: ''
 sub_heading: ''
-layout: landing-page
+layout: page
 textline: ''
 publish_date: '2017-12-01T04:00:00.000+00:00'
 show_staff: true
