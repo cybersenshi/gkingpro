@@ -9,9 +9,9 @@
 			</h3>
 
 			<ul class="optn center">
-				{% for service in page.services %}
+				{% for service in services %}
 				<li class="btn-large">
-					{{ name }}
+					{{ service.name }}
 				</li>
   			{% endfor %}
 				<li class="btn-large">
