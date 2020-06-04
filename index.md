@@ -5,20 +5,14 @@ layout: landing-page
 heading: GKing Productions
 partners: []
 services:
-- service: Comedy Shows/Poetry Slams
-- service: Graduations
-- service: School Events
-- service: Bat/Bar Mitzvahs
-- service: Holiday & Religious Services
-- service: Fashion Shows
-- service: Casino Nights
-- service: Gala/Fund-Raisers
-- service: Weddings & Receptions
-- service: Music & Art Festivals
-- heading: ''
-  description: ''
-  icon: ''
-  service: Concerts
+- service: Entertainment Booking
+- service: DJ Services
+- service: Uplighting
+- service: Audio
+- service: Labor Staffing
+- service: Live Recording
+- service: Dance Lighting
+- service: Event Matchmaking
 sub_heading: We Make the Show Happen
 textline: "G. King Productions is a staging management and special event company that
   believes in the realization of your ideas to create you a unique, personal, and
