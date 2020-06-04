@@ -1,6 +1,47 @@
 ---
 layout: default
 ---
+<main>
+
+{% include hero.html %}
+
+<div class="container">
+	<h3 class="center">
+		Services
+	</h3>
+
+	<ul class="optn center">
+		{% for service in page.services %}
+		<li class="btn-large">
+			{{ service.service }}
+		</li>
+		{% endfor %}
+	</ul>
+
+	<h3 class="center">
+		Event Types
+	</h3>
+
+	<ul class="optn center">
+		{% for event in page.events %}
+		<li class="btn-large">
+			{{ event.event }}
+		</li>
+		{% endfor %}
+	</ul>
+</div><!-- /options container -->
+</main>
+
+<div class="parallax-container">
+	<div class="parallax"><img src="https://cybersenshi.github.io/gkingpro/{{ page.second_image }}" alt=""></div>
+</div>
+	<h3 class="center">
+		Testimonials
+	</h3>
+
+	<div class="container">
+		Some testimonials will go here. It'll be great.
+	</div><!-- /testimonial container -->
 
 {% comment %}
 	This layout is used to generate custom landing page layouts,
