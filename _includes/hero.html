@@ -9,6 +9,11 @@
 			</h3>
 
 			<ul class="optn center">
+				{% for service in page.services %}
+				<li>
+					{{ service }}
+				</li>
+  			{% endfor %}
 				<li class="btn-large">
 					Event Matchmaking
 				</li>
