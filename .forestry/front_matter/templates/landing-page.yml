@@ -50,6 +50,19 @@ fields:
   default: ''
   config:
     labelField: service
+- name: events
+  type: field_group_list
+  fields:
+  - name: event
+    type: text
+    config:
+      required: false
+    label: Event
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Events
 - name: second_image
   type: file
   config:
