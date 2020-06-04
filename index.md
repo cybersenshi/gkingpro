@@ -24,6 +24,7 @@ hero_button:
   href: "/about"
 show_news: false
 show_staff: false
+second_image: "/uploads/2020/06/04/dinner.jpg"
 menu:
   navigation:
     identifier: _index
