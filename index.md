@@ -36,6 +36,11 @@ second_image: "/uploads/2020/06/04/dinner.jpg"
 testimonials:
   testimonal: ''
   who_said_it: ''
+events:
+- event: Parties/Other Events
+- event: Concerts/Festivals
+- event: Corporate Events
+- event: Weddings
 menu:
   navigation:
     identifier: _index
