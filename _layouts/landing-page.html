@@ -40,7 +40,16 @@ layout: default
 	</h3>
 
 	<div class="container">
-		Some testimonials will go here. It'll be great.
+		<ul>
+			{% for testimonial in page.testimonials %}
+			<li>
+				{{ testimonial.testimonial }}
+				<span>
+					{{ testimonial.who_said_it }}
+				</span>
+			</li>
+			{% endfor %}
+		</ul>
 	</div><!-- /testimonial container -->
 
 {% comment %}
@@ -54,9 +63,3 @@ layout: default
 {{ content }}
 
 {% endif %}
-
-{% include services.html %}
-
-{% include news.html %}
-
-{% include staff.html %}
