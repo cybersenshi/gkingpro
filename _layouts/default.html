@@ -7,14 +7,18 @@
 
 {% include nav.html %}
 
-{% include hero.html %}
+<main>
 
-{% comment %}
-	Any layout that extends this layout will have its contents
-	added as the content variable
-{% endcomment %}
+	{% include hero.html %}
 
-{{ content }}
+	{% comment %}
+		Any layout that extends this layout will have its contents
+		added as the content variable
+	{% endcomment %}
+
+	{{ content }}
+
+</main>
 
 {% include footer.html %}
 </body>
