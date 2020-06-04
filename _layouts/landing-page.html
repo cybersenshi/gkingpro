@@ -31,25 +31,25 @@ layout: default
 <div class="parallax-container">
 	<div class="parallax"><img src="https://cybersenshi.github.io/gkingpro/{{ page.second_image }}" alt=""></div>
 </div>
-<a name="testimonials"></a>
-	<h3 class="center">
-		Testimonials
-	</h3>
 
-	<div class="container">
-		<ul>
-			{% for testimonial in page.testimonials %}
-			<li>
-				<div class="card">
-	        <div class="card-content">
-	          <span class="card-title">{{ testimonial.testimonial }}</span>
-	          <p class="speaker">- {{ testimonial.who_said_it }}</p>
-	        </div>
+<div class="container">
+	<a name="testimonials"></a>
+		<h3 class="center">
+			Testimonials
+		</h3>
+	<ul>
+		{% for testimonial in page.testimonials %}
+		<li>
+			<div class="card">
+        <div class="card-content">
+          <span class="card-title">{{ testimonial.testimonial }}</span>
+          <p class="speaker">- {{ testimonial.who_said_it }}</p>
         </div>
-			</li>
-			{% endfor %}
-		</ul>
-	</div><!-- /testimonial container -->
+      </div>
+		</li>
+		{% endfor %}
+	</ul>
+</div><!-- /testimonial container -->
 
 {% comment %}
 	This layout is used to generate custom landing page layouts,
