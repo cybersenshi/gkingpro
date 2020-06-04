@@ -68,11 +68,15 @@ fields:
   config:
     maxSize: 64
   label: Second Image
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: home
 - name: testimonials
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
-  - name: testimonal
+  - name: testimonial
     type: textarea
     default: ''
     config:
@@ -80,17 +84,16 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Testimonal
+    label: Testimonial
   - name: who_said_it
     type: text
     config:
       required: false
     label: Who Said It
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Testimonials
-- name: layout
-  label: Layout
-  type: text
-  hidden: true
-  default: home
 pages:
 - index.md
