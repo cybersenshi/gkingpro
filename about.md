@@ -1,7 +1,7 @@
 ---
 title: About
 date: '2017-11-01T03:00:00.000+00:00'
-banner_image: "/uploads/2020/05/13/cover.jpg"
+banner_image: "/uploads/2020/06/04/guitar.jpg"
 heading: ''
 sub_heading: ''
 layout: page
