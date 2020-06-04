@@ -10,12 +10,8 @@ fields:
   config:
     required: true
 - type: text
-  label: Hero Heading
-  name: heading
-  default: Belkirk College
-- type: text
   name: sub_heading
-  label: Hero Sub heading
+  label: Sub heading
   default: Engineering and Health Sciences
 - type: file
   name: banner_image
@@ -45,21 +41,11 @@ fields:
   label: Services
   type: field_group_list
   fields:
-  - name: heading
-    label: Heading
+  - name: service
     type: text
-    hidden: false
-    default: ''
-  - name: description
-    label: Description
-    type: text
-    hidden: false
-    default: ''
-  - name: icon
-    label: Icon
-    type: file
-    hidden: false
-    default: ''
+    config:
+      required: false
+    label: Service
   hidden: false
   default: ''
 - name: second_image
@@ -67,6 +53,25 @@ fields:
   config:
     maxSize: 64
   label: Second Image
+- name: testimonials
+  type: field_group
+  config: {}
+  fields:
+  - name: testimonal
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Testimonal
+  - name: who_said_it
+    type: text
+    config:
+      required: false
+    label: Who Said It
+  label: Testimonials
 - name: layout
   label: Layout
   type: text
