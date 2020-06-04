@@ -14,30 +14,6 @@
 					{{ service.service }}
 				</li>
   			{% endfor %}
-				<li class="btn-large">
-					Event Matchmaking
-				</li>
-				<li class="btn-large">
-					Labor Staffing
-				</li>
-				<li class="btn-large">
-					Audio
-				</li>
-				<li class="btn-large">
-					Dance Lighting
-				</li>
-				<li class="btn-large">
-					Up Lighting
-				</li>
-				<li class="btn-large">
-					DJ Services
-				</li>
-				<li class="btn-large">
-					Live Recording
-				</li>
-				<li class="btn-large">
-					Entertainment Booking
-				</li>
 			</ul>
 
 			<h3 class="center">
@@ -45,6 +21,12 @@
 			</h3>
 
 			<ul class="optn center">
+				{% for event in page.events %}
+				<li class="btn-large">
+					{{ event.event }}
+				</li>
+  			{% endfor %}
+			</ul>
 				<li class="btn-large">
 					Weddings
 				</li>
