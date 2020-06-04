@@ -4,42 +4,29 @@
   </div>
 
 	<div class="container">
-			<h3 class="center">
-				Services
-			</h3>
+		<h3 class="center">
+			Services
+		</h3>
 
-			<ul class="optn center">
-				{% for service in page.services %}
-				<li class="btn-large">
-					{{ service.service }}
-				</li>
-  			{% endfor %}
-			</ul>
+		<ul class="optn center">
+			{% for service in page.services %}
+			<li class="btn-large">
+				{{ service.service }}
+			</li>
+			{% endfor %}
+		</ul>
 
-			<h3 class="center">
-				Event Types
-			</h3>
+		<h3 class="center">
+			Event Types
+		</h3>
 
-			<ul class="optn center">
-				{% for event in page.events %}
-				<li class="btn-large">
-					{{ event.event }}
-				</li>
-  			{% endfor %}
-			</ul>
-				<li class="btn-large">
-					Weddings
-				</li>
-				<li class="btn-large">
-					Corporate Events
-				</li>
-				<li class="btn-large">
-					Concerts/Festivals
-				</li>
-				<li class="btn-large">
-					Parties/Other Events
-				</li>
-			</ul>
+		<ul class="optn center">
+			{% for event in page.events %}
+			<li class="btn-large">
+				{{ event.event }}
+			</li>
+			{% endfor %}
+		</ul>
 	</div><!-- /options container -->
 </main>
 
