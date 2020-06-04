@@ -34,6 +34,15 @@ show_news: false
 show_staff: false
 second_image: "/uploads/2020/06/04/dinner.jpg"
 testimonials:
+- testimonial: 100% Excellent. We love GKing Productions!
+  who_said_it: Education Manager at Strathmore Music Center
+- testimonial: Gary and crew did the last DeVille anniversary. They were perfect!
+    You honestly won't want anyone else for sound and lights.
+  who_said_it: DeVille Ink
+- testimonial: |-
+    G. King Productions did an amazing job doing the beautiful room lighting for my wedding reception. From the moment I walked in the door, I was blown away.
+    All of my family and friends kept commenting on how amazing the reception looked. Highly recommended!!!
+  who_said_it: Mrs. Anna Geller
 - testimonial: "The Southern Frederick County Rotary wants to thank Gary King of King
     Productions. His amazing DJing at our Hollywood Premier and Annual Charter Dinner
     was well received by all for the second year in a row! He created a fun filled
