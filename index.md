@@ -4,7 +4,15 @@ banner_image: "/uploads/2020/05/13/cover.jpg"
 layout: landing-page
 heading: GKing Productions
 partners: []
-services: []
+services:
+- service: Entertainment Booking
+- service: DJ Services
+- service: Uplighting
+- service: Audio
+- service: Labor Staffing
+- service: Live Recording
+- service: Dance Lighting
+- service: Event Matchmaking
 sub_heading: We Make the Show Happen
 textline: "G. King Productions is a staging management and special event company that
   believes in the realization of your ideas to create you a unique, personal, and
@@ -25,6 +33,9 @@ hero_button:
 show_news: false
 show_staff: false
 second_image: "/uploads/2020/06/04/dinner.jpg"
+testimonials:
+  testimonal: ''
+  who_said_it: ''
 menu:
   navigation:
     identifier: _index
