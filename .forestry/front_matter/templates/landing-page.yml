@@ -62,10 +62,11 @@ fields:
     default: ''
   hidden: false
   default: ''
-- type: boolean
-  name: show_news
-  label: Show News?
-  description: Enables a news section with a twitter feed & latest posts
+- name: second_image
+  type: file
+  config:
+    maxSize: 64
+  label: Second Image
 - name: layout
   label: Layout
   type: text
