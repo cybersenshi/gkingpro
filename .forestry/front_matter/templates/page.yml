@@ -2,44 +2,21 @@
 label: page
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
 - type: file
   name: banner_image
   label: banner_image
 - type: text
-  name: heading
-  label: heading
-- type: text
-  name: sub_heading
-  label: sub_heading
+  name: title
+  label: title
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
 - type: text
   name: layout
   label: layout
-- type: text
-  name: textline
-  label: textline
-- type: datetime
-  name: publish_date
-  label: publish_date
-- type: boolean
-  name: show_staff
-  label: show_staff
-- type: field_group
-  name: menu
-  label: menu
-  fields:
-  - type: field_group
-    name: navigation
-    label: navigation
-    fields:
-    - type: text
-      name: identifier
-      label: identifier
-    - type: number
-      name: weight
-      label: weight
