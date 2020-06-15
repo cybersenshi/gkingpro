@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% comment %}
+    A general page layout. Used by default for all content on the site.
+{% endcomment %}
+
+<div class="container">
+  <h1>
+    {{ page.title }}
+  </h1>
+  {{ content }}
+  <form action="https://formsubmit.co/contact@gkingpro.com" method="POST">
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <input type="text" name="tel">
+    <button type="submit">Send</button>
+  </form>
+</div><!-- /container -->
