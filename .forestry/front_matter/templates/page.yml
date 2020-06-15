@@ -21,4 +21,5 @@ fields:
   name: layout
   label: layout
 pages:
+- contact.md
 - services.md
