@@ -10,10 +10,25 @@ layout: default
     {{ page.title }}
   </h1>
   {{ content }}
-  <form action="https://formsubmit.co/contact@gkingpro.com" method="POST">
-    <input type="text" name="name">
-    <input type="email" name="email">
-    <input type="text" name="tel">
-    <button type="submit">Send</button>
+  <form action="https://formsubmit.co/booking@gkingpro.com" method="POST">
+      <div class="input-field">
+        <input id="name" type="text" name="name">
+        <label for="name">
+          Name
+        </label>
+      </div>
+      <div class="input-field">
+        <input id="email" type="email" name="email">
+        <label for="email">
+          Email
+        </label>
+      </div>
+      <div class="input-field">
+        <input id="tel" type="tel" name="tel">
+        <label for="tel">
+          Phone
+        </label>
+      </div>
+      <button type="submit">Send</button>
   </form>
 </div><!-- /container -->
