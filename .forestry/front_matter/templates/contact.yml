@@ -1,0 +1,16 @@
+---
+label: Contact
+hide_body: true
+fields:
+- type: file
+  name: banner_image
+  label: banner_image
+- type: text
+  name: title
+  label: title
+- type: text
+  name: content
+  label: content
+- type: text
+  name: layout
+  label: layout
