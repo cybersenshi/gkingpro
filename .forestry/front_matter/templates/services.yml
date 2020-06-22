@@ -1,4 +1,26 @@
 ---
 label: Services
 hide_body: false
-fields: []
+fields:
+- name: services
+  type: field_group_list
+  fields:
+  - name: service_name
+    type: text
+    config:
+      required: false
+    label: Service Name
+  - name: service_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Service Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Services
